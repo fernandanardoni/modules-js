@@ -1,12 +1,11 @@
-// import {Alunos} from "./Alunos.js";
-// function showNames() {
-//     return Alunos.map((aluno) => aluno.nome)
-// }
-// console.log(showNames())
-const Alunos = require("./Alunos.js");
+"use strict";
+
+var _Alunos = require("./Alunos.js");
 
 function showNames() {
-  return Alunos.map(aluno => aluno.nome);
+  return _Alunos.Alunos.map(function (aluno) {
+    return aluno.nome;
+  });
 }
 
 console.log(showNames());

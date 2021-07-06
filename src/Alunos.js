@@ -1,4 +1,4 @@
-const Alunos = [
+export const Alunos = [
     {
         nome: "Jonas",
         idade: 14
@@ -18,6 +18,6 @@ const Alunos = [
 
 ]
 
-module.exports = Alunos;
+
 
 
