@@ -13,10 +13,16 @@ module.exports = {
   plugins : [
     new HtmlWebpackPlugin({
       title : "App",
-      filename : "app.html",
+      filename : "index.html",
       template : path.resolve(__dirname, "template.html"),
     })
   ],
+
+  devServer: {
+    contentBase: path.resolve(__dirname, "build"),
+    port: 3000,
+    open: true,
+  },
        module: {
         rules: [
           {
