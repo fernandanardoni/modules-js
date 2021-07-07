@@ -5,11 +5,18 @@
   "main": "index.js",
   "author": "Fernanda Nardoni <thefray.br@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.14.5",
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^2.0.0",
     "webpack": "4.41.5",
     "webpack-cli": "3.3.11"
   }
