@@ -16,8 +16,10 @@
     "@babel/preset-env": "^7.14.7",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "4",
     "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
     "webpack": "4.41.5",
     "webpack-cli": "3.3.11",
     "webpack-dev-server": "3.10.3"
