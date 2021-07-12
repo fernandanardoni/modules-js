@@ -1,0 +1,10 @@
+.table-container {
+    width: 100%;
+    text-align: center;
+    background-color: slateblue;
+}
+
+.table-container tr {
+    
+    background-color: rgb(125, 107, 243); 
+}
