@@ -14,8 +14,10 @@ const header = Header({
 
 const table = Table();
 
+
 app.innerHTML = header;
 app.innerHTML += table;
+
 
 
 console.log(Alunos)
